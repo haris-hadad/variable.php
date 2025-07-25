@@ -1,0 +1,39 @@
+main section {
+    background-color: #7777f3; /* un fond un peu plus doux */
+    padding: 3rem 2rem;         /* plus d’espace vertical */
+    border-radius: 16px;        /* coins plus arrondis */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* ombre un peu plus marquée */
+    text-align: left;           /* texte aligné à gauche pour plus de lisibilité */
+    animation: fadeInUp 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards; /* animation plus fluide et moderne */
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.accueil-intro {
+    background-color: #f0fcff;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #d8edf1;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.accueil-intro h2 {
+    color: #007B8A;
+    margin-bottom: 1rem;
+}
+
+.accueil-intro p {
+    font-size: 1.1rem;
+    color: #444;
+}
+
